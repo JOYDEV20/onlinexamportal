@@ -1,0 +1,17 @@
+[
+  {
+    "roll": "01",
+    "name": "Rahul Das",
+    "password": "abc123"
+  },
+  {
+    "roll": "02",
+    "name": "Priya Roy",
+    "password": "abc456"
+  },
+  {
+    "roll": "03",
+    "name": "Amit Kumar",
+    "password": "abc789"
+  }
+]

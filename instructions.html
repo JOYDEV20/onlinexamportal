@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>
+      Instructions
+   </title><meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/instruction.css">
+</head>
+
+<body>
+
+   <div class="container">
+
+      <div class="card">
+
+         <h1>
+            Exam Instructions
+         </h1>
+
+         <ul>
+
+            <li>
+               Total Questions:
+               20
+            </li>
+
+            <li>
+               Duration:
+               30 Minutes
+            </li>
+
+            <li>
+               Each question carries
+               1 mark.
+            </li>
+
+            <li>
+               No page refresh.
+            </li>
+
+            <li>
+               Do not close browser.
+            </li>
+
+         </ul>
+
+         <button id="startBtn">
+
+            Start Exam
+
+         </button>
+
+      </div>
+
+   </div>
+
+   <script>
+
+      document
+         .getElementById(
+            "startBtn"
+         )
+         .addEventListener(
+            "click",
+            () => {
+
+               localStorage
+                  .setItem(
+                     "examStarted",
+                     "true"
+                  );
+
+               window.location =
+                  "exam.html";
+
+            }
+         );
+
+   </script>
+
+</body>
+
+</html>

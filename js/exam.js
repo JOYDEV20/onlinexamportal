@@ -50,7 +50,7 @@ async function
    ) {
 
       renderQuestions(
-         data.questions
+         data.questions.slice(0, 10)
       );
 
    }
@@ -141,7 +141,7 @@ function startTimer() {
 
    if (!duration) {
 
-      duration = 30 * 60;
+      duration = 10 * 60;
 
    } else {
 

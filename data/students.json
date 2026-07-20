@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "roll": "01",
@@ -14,4 +15,22 @@
     "name": "Amit Kumar",
     "password": "abc789"
   }
+=======
+[
+  {
+    "roll": "01",
+    "name": "Rahul Das",
+    "password": "abc123"
+  },
+  {
+    "roll": "02",
+    "name": "Priya Roy",
+    "password": "abc456"
+  },
+  {
+    "roll": "03",
+    "name": "Amit Kumar",
+    "password": "abc789"
+  }
+>>>>>>> ab7ecf0c5f5f48419b5469d4f7a220f7c394d8fa
 ]
